@@ -1,0 +1,121 @@
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  color: black;
+}
+
+#header {
+  background-color: #A4C3D8;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header > a {
+  display: inline-block;
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#header > a:hover {
+  background-color: #fff;
+  color: #A4C3D8;
+}
+
+#header > p, #header > p > a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #4F5E69;
+  font-weight: 900;
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.flexy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexy li {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  width: 300px;
+  margin: 10px 15px;
+  justify-content: space-between;
+}
+
+.flexy li img {
+  height: 200px;
+  width: 100%;
+}
+
+.pad-10 {
+  padding-left: 15px;
+}
+
+.card-mg {
+  margin: 15px 0 5px 0;
+}
+
+.card-bottom {
+  background-color: #4F5E69;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.card-bottom a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.block-in {
+  display: flex;
+}
+
+.block-in p {
+  margin-right: 20px;
+}
+
+.fas {
+  color: #4F5E69;
+  margin-right: 5px;
+}
+
+.card-title {
+  color: #4F5E69;
+  font-weight: 700;
+}
